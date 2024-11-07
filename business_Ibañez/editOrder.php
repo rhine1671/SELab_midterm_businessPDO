@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	<h1>Edit the project!</h1>
+	<h1>Edit order!</h1>
 	<?php $getOrderByID = getOrderByID($pdo, $_GET['order_id']); ?>
     <form action="core/handleForms.php?order_id=<?php echo $_GET['order_id']; ?>&customer_id=<?php echo $_GET['customer_id']; ?>" method="POST">
         
