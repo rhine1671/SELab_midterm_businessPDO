@@ -10,7 +10,7 @@
 </head>
 <body>
 	<?php $getOrderByID = getOrderByID($pdo, $_GET['order_id']); ?>
-	<h1>Are you sure you want to delete this project?</h1>
+	<h1>Are you sure you want to delete this order?</h1>
 	<div class="container" style="border-style: solid; height: 400px;">
 		<h2>Order Type: <?php echo $getOrderByID['order_type'] ?></h2>
 		<h2>Item Description: <?php echo $getOrderByID['item_description'] ?></h2>
